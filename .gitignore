@@ -107,3 +107,4 @@ dist
 .eslintcache
 package-lock.json
 /src/react-app-env.d.ts
+build
