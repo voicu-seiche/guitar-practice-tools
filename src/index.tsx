@@ -1,13 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { ThemeProvider } from '@material-ui/core/styles';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
+import { HashRouter } from 'react-router-dom';
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import theme from './theme';
-import { Provider } from 'react-redux'
-import { BrowserRouter } from 'react-router-dom';
 import configureStore from './store/store';
+import theme from './theme';
 
 const store = configureStore();
 
@@ -16,9 +17,9 @@ ReactDOM.render(
 		<ThemeProvider theme={theme}>
 			{/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
 			<CssBaseline />
-			<BrowserRouter>
+			<HashRouter>
 				<App />
-			</BrowserRouter>
+			</HashRouter>
 		</ThemeProvider>
 	</Provider>,
 	document.querySelector('#root'),
