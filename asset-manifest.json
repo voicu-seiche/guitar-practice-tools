@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/guitar-practice-tools/static/js/main.62625ab1.chunk.js",
-    "main.js.map": "/guitar-practice-tools/static/js/main.62625ab1.chunk.js.map",
-    "runtime-main.js": "/guitar-practice-tools/static/js/runtime-main.66020837.js",
-    "runtime-main.js.map": "/guitar-practice-tools/static/js/runtime-main.66020837.js.map",
-    "static/js/2.650bc894.chunk.js": "/guitar-practice-tools/static/js/2.650bc894.chunk.js",
-    "static/js/2.650bc894.chunk.js.map": "/guitar-practice-tools/static/js/2.650bc894.chunk.js.map",
-    "static/js/3.942b9e3d.chunk.js": "/guitar-practice-tools/static/js/3.942b9e3d.chunk.js",
-    "static/js/3.942b9e3d.chunk.js.map": "/guitar-practice-tools/static/js/3.942b9e3d.chunk.js.map",
+    "main.js": "/guitar-practice-tools/static/js/main.d7364f4b.chunk.js",
+    "main.js.map": "/guitar-practice-tools/static/js/main.d7364f4b.chunk.js.map",
+    "runtime-main.js": "/guitar-practice-tools/static/js/runtime-main.96d1780b.js",
+    "runtime-main.js.map": "/guitar-practice-tools/static/js/runtime-main.96d1780b.js.map",
+    "static/js/2.d2171092.chunk.js": "/guitar-practice-tools/static/js/2.d2171092.chunk.js",
+    "static/js/2.d2171092.chunk.js.map": "/guitar-practice-tools/static/js/2.d2171092.chunk.js.map",
+    "static/js/3.4c6cd650.chunk.js": "/guitar-practice-tools/static/js/3.4c6cd650.chunk.js",
+    "static/js/3.4c6cd650.chunk.js.map": "/guitar-practice-tools/static/js/3.4c6cd650.chunk.js.map",
     "index.html": "/guitar-practice-tools/index.html",
-    "static/js/2.650bc894.chunk.js.LICENSE.txt": "/guitar-practice-tools/static/js/2.650bc894.chunk.js.LICENSE.txt"
+    "static/js/2.d2171092.chunk.js.LICENSE.txt": "/guitar-practice-tools/static/js/2.d2171092.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.66020837.js",
-    "static/js/2.650bc894.chunk.js",
-    "static/js/main.62625ab1.chunk.js"
+    "static/js/runtime-main.96d1780b.js",
+    "static/js/2.d2171092.chunk.js",
+    "static/js/main.d7364f4b.chunk.js"
   ]
 }
