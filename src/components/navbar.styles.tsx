@@ -11,6 +11,8 @@ const useStyles = makeStyles((theme) => ({
 		alignItems: 'center',
 		justifyContent: 'flex-end',
 		padding: '0 8px',
+		backgroundColor: theme.palette.primary.main,
+		color: theme.palette.primary.contrastText,
 		...theme.mixins.toolbar,
 	},
 	appBar: {

@@ -67,28 +67,28 @@ const NavBar = (props: any) => {
 					<Typography component="h1" variant="h6" color="inherit" noWrap className={classes.title}>
 						Menu
                     </Typography>
-					<IconButton onClick={handleDrawerClose}>
+					<IconButton onClick={handleDrawerClose} color="inherit">
 						<ChevronLeftIcon />
 					</IconButton>
 				</div>
 				<Divider />
 				<List>
-					{Routes.map((prop, key) => {
+					{Routes.map((route, index) => {
 						let listItem;
 						if (open) {
-							listItem = <ListItem button component={Link} to={prop.path} key={key} color="secondary" selected={activeRoute(prop.path)}>
+							listItem = <ListItem button component={Link} to={route.path} key={index} color="secondary" selected={activeRoute(route.path)}>
 								<ListItemIcon>
-									<prop.icon />
+									<route.icon />
 								</ListItemIcon>
-								<ListItemText primary={prop.name} />
+								<ListItemText primary={route.name} />
 							</ListItem>;
 						} else {
-							listItem = <Tooltip title={prop.name} placement="right">
-								<ListItem button component={Link} to={prop.path} key={key} color="secondary" selected={activeRoute(prop.path)}>
+							listItem = <Tooltip title={route.name} placement="right" key={index}>
+								<ListItem button component={Link} to={route.path} color="secondary" selected={activeRoute(route.path)}>
 									<ListItemIcon>
-										<prop.icon />
+										<route.icon />
 									</ListItemIcon>
-									<ListItemText primary={prop.name} />
+									<ListItemText primary={route.name} />
 								</ListItem>
 							</Tooltip>;
 						}
