@@ -5,11 +5,11 @@ import Grid from '@material-ui/core/Grid';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import SyncIcon from '@material-ui/icons/Sync';
 import React from 'react';
+import Fretboard from 'react-fretboard';
 import { useDispatch, useSelector } from 'react-redux';
 
 import { RandomizeNotes } from '../actions/noteLearning.actions';
 import Card from '../components/card.component';
-// import Fretboad from '../components/fretboard.component';
 import { IAppState } from '../store/store';
 
 const useStyles = makeStyles((theme: Theme) =>
@@ -57,7 +57,12 @@ const NoteLearning = () => {
 					</Card>
 				</Grid>
 				<Grid item xs={12}>
-					{/* <Fretboad /> */}
+					<Card title="Fretboard">
+						<Fretboard
+							skinType="strings"
+							selectedNotes={['A', 'B', 'C', 'D', 'E', 'F', 'G']}
+						/>
+					</Card>
 				</Grid>
 			</Grid>
 		</React.Fragment>
